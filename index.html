@@ -13,24 +13,35 @@
     />
   </head>
   <body>
-    <div class="app">
+    <div class="container">
       <header>
-        <form>
-          <input type="search" placeholder="Enter a city.." required />
-          <input type="submit" value="Search" />
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            required
+            class="search-input"
+          />
+          <input type="submit" value="Search" class="search-button" />
         </form>
       </header>
 
       <main>
-        <div>
-          <h1>Cyprus</h1>
-          <p>
-            Tuesday 9:20, sunny
-            <br />
-            Humidity: 90%, Wind: 5.67km/h
-          </p>
+        <div class="weather-app-detail">
+          <div>
+            <h1 class="weather-city">Canada</h1>
+            <p class="weather-details">
+              Tuesday 9:20, Sunny
+              <br />
+              Humidity: <strong>90%</strong>, Wind: <strong>5.67km/h</strong>
+            </p>
+          </div>
+          <div class="weather-temperature">
+            <div class="temperature-icon">☀</div>
+            <div class="temperature-value">45</div>
+            <div class="temperature-unit">°C</div>
+          </div>
         </div>
-        <div>☀ 45°</div>
       </main>
 
       <footer>
