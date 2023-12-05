@@ -4,9 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Live Weather Forecast</title>
+    <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <h1>Welcome to the Live Weather Forecast</h1>
+    <header>
+      <form>
+        <input type="search" placeholder="Enter a city.." required />
+        <input type="submit" value="Search" />
+      </form>
+    </header>
+
+    <main>
+      <div>
+        <h1>Cyprus</h1>
+        <p>
+          Tuesday 9:20, sunny
+          <br />
+          Humidity: 90%, Wind: 5.67km/h
+        </p>
+      </div>
+      <div>☀ 45°</div>
+    </main>
+
     <footer>
       This app was built by
       <a href="https://github.com/munamenuga" target="_blank"
@@ -21,5 +40,7 @@
         >Vercel</a
       >
     </footer>
+
+    <script src="src/script.js"></script>
   </body>
 </html>
